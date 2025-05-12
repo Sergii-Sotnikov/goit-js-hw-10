@@ -9,7 +9,7 @@ import iconError from '../img/bi_x-octagon.svg';
 iconUrl: iconError,
 
 
-let userSelectedDate;
+const userSelectedDate;
 
 const refs = {
   inptElem: document.querySelector("#datetime-picker"),
