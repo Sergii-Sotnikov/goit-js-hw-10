@@ -5,6 +5,9 @@ import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
+import iconError from '../img/bi_x-octagon.svg';
+
+
 
 let userSelectedDate;
 
@@ -34,7 +37,7 @@ const fp = flatpickr(refs.inptElem, {
           titleColor: '#FFFFFF',
           titleSize: '16px',
           backgroundColor: '#EF4040',
-          iconUrl: '../img/bi_x-octagon.svg',
+          iconUrl: 'iconError',
           message: 'Please choose a date in the future',
           position: 'topRight',
           color: 'red',
