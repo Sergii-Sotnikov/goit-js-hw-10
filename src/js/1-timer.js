@@ -37,7 +37,7 @@ const fp = flatpickr(refs.inptElem, {
           titleColor: '#FFFFFF',
           titleSize: '16px',
           backgroundColor: '#EF4040',
-          iconUrl: '/img/bi_x-octagon.svg',
+          iconUrl: '../img/bi_x-octagon.svg',
           message: 'Please choose a date in the future',
           position: 'topRight',
           color: 'red',
